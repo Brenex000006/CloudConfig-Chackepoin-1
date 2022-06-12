@@ -2,7 +2,7 @@ server:
   port: ${PORT_DH_CATALOGO:8012}
 spring:
   datasource:
-    url: ${DB_URL:jdbc:h2:mem:catalog-service-test}
+    url: ${DB_URL:jdbc:h2:mem:catalog-test}
     username: sa
     password:
     driverClassName: org.h2.Driver
